@@ -2,7 +2,7 @@ var express  = require("express"),
     app      = express(),
     http     = require("http"),
     server   = http.createServer(app),
-    mongoose = require('mongoose'); 
+    mongoose = require('mongoose');
 
 app.configure(function () {
   app.use(express.bodyParser());
